@@ -1,0 +1,125 @@
+/* Keep original styling and make it more attractive visually */
+
+body {
+    background-image: url('bg_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form-card {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .switch-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .switch-field input[type="radio"] {
+    display: none;
+  }
+  
+  .switch-field label {
+    background-color: #eee;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    margin-right: 5px;
+    transition: 0.3s;
+  }
+  
+  .switch-field label:last-child {
+    margin-right: 0;
+  }
+  
+  .switch-field input[type="radio"]:checked + label {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+  }
+  
+  button.submit {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background 0.3s ease;
+  }
+  
+  button.submit:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background: #e0ffe0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .form-card {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
