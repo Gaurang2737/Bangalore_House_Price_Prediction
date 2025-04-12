@@ -1,6 +1,7 @@
 from flask import request,Flask , jsonify,render_template
 app = Flask(__name__)
-import util
+from Server import util
+
 util.load_saved_artifacts()
 
 @app.route('/')
