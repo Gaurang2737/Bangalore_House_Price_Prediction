@@ -1,10 +1,7 @@
 Flask
 pandas
 numpy
-scikit-learngit add requirements.txt
-git commit -m "Fix: replaced sklearn with scikit-learn"
-git push
-
+scikit-learn
 pickle
 json
 gunicorn
