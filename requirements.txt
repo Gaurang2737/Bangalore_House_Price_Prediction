@@ -1,5 +1,7 @@
-Flask
-pandas
-numpy
-scikit-learn==1.2.2
-gunicorn
+pip~=24.0
+attrs~=23.2.0
+wheel~=0.43.0
+pillow~=10.3.0
+numpy~=1.24.4
+pandas~=2.0.3
+flask~=3.0.3
