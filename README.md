@@ -34,28 +34,84 @@ This project covers data preprocessing, feature engineering, EDA, model training
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```text
-Bangalore_House_Price_Prediction/
+House_price_prediction/
 │
-├── app.py                         # Flask backend script
-├── requirements.txt               # Python dependencies
-├── house_price_prediction.ipynb  # EDA, preprocessing, and model training
+├── Model/
+│   ├── Bengaluru_price_prediction.ipynb   # EDA, preprocessing, modeling
+│   ├── Bengaluru_House_Data.csv           # Dataset
+│   └── bengaluru_home_price_model.pkl     # Trained model
 │
-├── templates/                     # HTML templates for frontend
-│   └── index.html
+├── Server/
+│   ├── server.py                          # Flask backend
+│   ├── util.py                            # Helper functions
+│   ├── templates/
+│   │   └── app.html                       # HTML frontend
+│   └── static/
+│       ├── app.css                        # Styles
+│       └── app.js                         # Frontend logic
 │
-├── static/                        # CSS, JavaScript, and assets
-│   └── style.css
-│
-├── model/                         # Trained model files (pickle)
-│   └── bangalore_home_prices_model.pickle
-│
-├── data/                          # Raw and cleaned dataset files
-│   └── bangalore_data.csv
-│
-└── README.md                      # Project documentation
+├── requirements.txt                       # Python dependencies
+└── Procfile                               # Render deployment config
 ```
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Gaurang2737/Bangalore_House_Price_Prediction.git
+cd Bangalore_House_Price_Prediction
+
+2. **Create a virtual environment and activate it**
+
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. **Install the dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the Flask server**
+
+```bash
+cd Server
+python server.py
+```
+
+5. **Open in browser**
+
+Go to: `http://127.0.0.1:5000/`
+
+---
+
+
+## 📬 Contact
+
+For any questions or feedback, feel free to reach out:
+
+**Gaurang Sane**  
+📧 [LinkedIn](linkedin.com/in/gaurang-sane-84b5b1254)  
+📫 Email: gaurangtech9@gmail.com
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, don’t forget to ⭐ the repo!
+
+
 
 
