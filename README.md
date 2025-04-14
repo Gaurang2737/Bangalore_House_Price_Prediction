@@ -103,7 +103,7 @@ Go to: `http://127.0.0.1:5000/`
 For any questions or feedback, feel free to reach out:
 
 **Gaurang Sane**  
-📧 [LinkedIn](linkedin.com/in/gaurang-sane-84b5b1254)  
+📧 [LinkedIn](https://www.linkedin.com/in/gaurang-sane-84b5b1254)  
 📫 Email: gaurangtech9@gmail.com
 
 ---
