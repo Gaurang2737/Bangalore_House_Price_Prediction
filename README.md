@@ -1,117 +1,90 @@
 # 🏠 Bangalore House Price Prediction
 
-A full-stack Machine Learning web application that predicts housing prices in Bangalore using Linear Regression.  
-This project covers data preprocessing, feature engineering, EDA, model training, and deployment using Flask.
+A full-stack Machine Learning web application that predicts housing prices in Bangalore using a Linear Regression model. This project covers the complete ML pipeline from data preprocessing and feature engineering to model deployment via a Flask REST API.
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-👉 **Live App**: https://bangalore-house-price-prediction-glpl.onrender.com/
-
----
-
-## 📌 Features
-
-- 📊 **Performed detailed Exploratory Data Analysis (EDA)**
-- 🧹 **Cleaned and transformed real-world housing data**
-- 🧠 **Built a Linear Regression model for price prediction**
-- 💡 **Feature engineering based on location, BHK, square footage, etc.**
-- 🌐 **Developed a REST API using Flask**
-- 🎨 **Designed a responsive frontend using HTML, CSS, JS**
-- ☁️ **Deployed using Render and monitored via UptimeRobot**
+👉 **[Click here for the Live Application](https://bangalore-house-price-prediction-glpl.onrender.com/)**
 
 ---
 
-## 🛠 Tech Stack
+## 📝 Project Overview
 
-**Languages**: Python, HTML/CSS, JavaScript  
-**Libraries**: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn  
-**Framework**: Flask  
-**Deployment**: Render  
-**Monitoring**: UptimeRobot
+The primary goal of this project is to build a reliable predictive model for real estate prices in Bangalore. This helps potential buyers and sellers make informed decisions by providing accurate price estimations. The project demonstrates an end-to-end understanding of a data science lifecycle, from data acquisition to a user-facing web application.
 
 ---
 
-## 📁 Project Structure
+## ✨ Key Features
 
-```text
-House_price_prediction/
-│
-├── Model/
-│   ├── Bengaluru_price_prediction.ipynb   # EDA, preprocessing, modeling
-│   ├── Bengaluru_House_Data.csv           # Dataset
-│   └── bengaluru_home_price_model.pkl     # Trained model
-│
-├── Server/
-│   ├── server.py                          # Flask backend
-│   ├── util.py                            # Helper functions
-│   ├── templates/
-│   │   └── app.html                       # HTML frontend
-│   └── static/
-│       ├── app.css                        # Styles
-│       └── app.js                         # Frontend logic
-│
-├── requirements.txt                       # Python dependencies
-└── Procfile                               # Render deployment config
-```
+- 🧹 **Data Cleaning:** Handled messy real-world housing data, including null values and structural inconsistencies.
+- 💡 **Feature Engineering:** Created new features based on location, BHK, and square footage to enhance model accuracy.
+- 📊 **Exploratory Data Analysis (EDA):** Performed detailed analysis to identify trends and correlations in the data.
+- 🧠 **Model Training:** Built and trained a Linear Regression model, achieving an **R-squared score of 92%**.
+- 🌐 **REST API:** Developed a Flask backend to serve model predictions via API endpoints.
+- 🎨 **Responsive Frontend:** Designed a user-friendly interface with HTML, CSS, and JavaScript for a seamless user experience.
 
 ---
 
-## 🧑‍💻 How to Run Locally
+## 🛠️ Tech Stack
 
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/Gaurang2737/Bangalore_House_Price_Prediction.git
-cd Bangalore_House_Price_Prediction
-
-2. **Create a virtual environment and activate it**
-
-```bash
-# For Windows
-python -m venv venv
-venv\Scripts\activate
-
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. **Install the dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-4. **Run the Flask server**
-
-```bash
-cd Server
-python server.py
-```
-
-5. **Open in browser**
-
-Go to: `http://127.0.0.1:5000/`
+- **Languages**: `Python`, `JavaScript`, `HTML/CSS`
+- **Libraries**: `NumPy`, `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
+- **Framework**: `Flask`
+- **Deployment**: `Render`
 
 ---
 
+## 💻 How to Run Locally
 
-## 📬 Contact
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Gaurang2737/Bangalore_House_Price_Prediction.git](https://github.com/Gaurang2737/Bangalore_House_Price_Prediction.git)
+    cd Bangalore_House_Price_Prediction
+    ```
+2.  **Create and activate a virtual environment:**
+    ```bash
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
 
-For any questions or feedback, feel free to reach out:
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Run the Flask server:**
+    ```bash
+    cd Server
+    python server.py
+    ```
+5.  **Open in your browser:**
+    Navigate to `http://127.0.0.1:5000/`
 
-**Gaurang Sane**  
-📧 [LinkedIn](https://www.linkedin.com/in/gaurang-sane-84b5b1254)  
-📫 Email: gaurangtech9@gmail.com
+---
+
+## 📈 Future Improvements
+
+- **Experiment with Advanced Models:** Implement and evaluate more complex regression models like XGBoost or LightGBM to compare performance and potentially improve accuracy.
+- **Incorporate More Features:** Integrate additional data sources, such as proximity to amenities (schools, hospitals, public transport), to enhance predictive power.
+- **Containerize the Application:** Use Docker to containerize the application for more robust and scalable deployment.
 
 ---
 
 ## ⭐ Show Your Support
 
-If you like this project, don’t forget to ⭐ the repo!
+If you find this project useful or interesting, please consider giving it a ⭐!
 
+---
 
+## 📬 Contact
 
+For any questions or feedback, feel free to reach out:
 
+**Gaurang Sane**
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/gaurang-sane-84b5b1254)
+[<img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />](mailto:gaurangtech9@gmail.com)
